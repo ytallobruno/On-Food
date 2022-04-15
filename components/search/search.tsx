@@ -15,15 +15,15 @@ export function Search() {
       <Menu.Items className={Styles.options}>
         <div>
           <Menu.Item>
-            <ItemLink href="/descobrir/sao-paulo-sp">São Paulo, SP</ItemLink>
+            <ItemLink href="/discover/sao-paulo-sp">São Paulo, SP</ItemLink>
           </Menu.Item>
           <Menu.Item>
-            <ItemLink href="/descobrir/florianopolis-sc">
+            <ItemLink href="/discover/florianopolis-sc">
               Florianópolis, SC
             </ItemLink>
           </Menu.Item>
           <Menu.Item>
-            <ItemLink href="/descobrir/porto-alegre-rs">
+            <ItemLink href="/discover/porto-alegre-rs">
               Porto Alegre, RS
             </ItemLink>
           </Menu.Item>
