@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { PageTemplate, Search, Dishe } from "@/components";
+import { PageTemplate, Search, Dishe, Character } from "@/components";
 import Styles from "../styles/internals.module.css";
 
 const Home: NextPage = () => {
@@ -21,6 +21,7 @@ const Home: NextPage = () => {
           <h2>
             Descubra seu novo Delivery favorito. Milhares de opções a um clique.
           </h2>
+          <Character />
         </div>
       </PageTemplate>
 
