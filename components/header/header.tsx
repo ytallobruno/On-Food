@@ -30,7 +30,7 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/favoritos">
+            <Link href="/favorites">
               <a>
                 <IconBookmark />
                 Favoritos
